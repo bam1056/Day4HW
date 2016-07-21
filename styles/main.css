@@ -1,3 +1,64 @@
-body {
-  
+body{
+  padding: 0;
+  margin: 0;
+
+}
+header{
+  background-image: url('../surfResources/header.jpg');
+  background-size: cover;
+  font-family: "Open Sans","Futura", sans-serif;
+  color: #083451;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+header ul {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  justify-content:flex-end;
+  margin-right: 15px;
+}
+
+header li {
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+
+}
+header form input[type=submit]{
+  background-image: url('../surfResources/search-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+  border: none;
+  width: 2.25em;
+  background-color: transparent;
+
+}
+
+header h1{
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight:100;
+  color: white;
+}
+header h6{
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 75px;
+}
+
+.crestLogo{
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.nav-bar {
+  margin-left: 20px;
 }
