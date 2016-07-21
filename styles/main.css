@@ -62,3 +62,30 @@ header h6{
 .nav-bar {
   margin-left: 20px;
 }
+.top-flex-container{
+  display: flex;
+}
+.blog-post {
+  margin-right: 50px;
+  margin-left: 100px;
+}
+.sidebar{
+  margin-right: 100px;
+}
+.ad {
+  margin-right: 200px;
+}
+.blog-footer {
+  display:flex;
+  justify-content: flex-start;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.links li {
+  margin-right: 15px;
+}
