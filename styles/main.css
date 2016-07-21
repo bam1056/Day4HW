@@ -9,7 +9,7 @@ header{
   font-family: "Open Sans","Futura", sans-serif;
   color: #083451;
 }
-header nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,6 +17,14 @@ header nav {
 }
 
 header ul {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  justify-content:flex-end;
+  margin-right: 15px;
+}
+
+footer ul {
   display: flex;
   flex-grow: 1;
   list-style: none;
@@ -54,7 +62,43 @@ header h6{
   margin-top: 0;
   padding-bottom: 75px;
 }
-
+main{
+  font-family: "Oswald";
+  font-weight: lighter;
+  color: #083451;
+}
+main h2{
+  font-weight: normal;
+}
+aside {
+  margin-left: 50px;
+  border-left: 2px solid gray;
+}
+aside h4 {
+  margin-left: 10px;
+  font-weight: lighter;
+  font-size: 2em;
+  color: #357CBA
+}
+.sidebar h4 {
+  text-align: center;
+}
+.author-social-links ul{
+  display:flex;
+  list-style: none;
+  justify-content: center;
+}
+.author-social-links li{
+margin-right: 10px;
+}
+.author-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-flex-container h2{
+  font-size: 3em;
+}
 .crestLogo{
   margin-left: 25px;
   margin-right: 10px;
@@ -69,15 +113,23 @@ header h6{
   margin-right: 50px;
   margin-left: 100px;
 }
+.avatar{
+  margin-right: 10px;
+}
+.name{
+margin-right: 5px;
+}
+.date{
+  margin-left: 5px;
+}
 .sidebar{
   margin-right: 100px;
 }
-.ad {
-  margin-right: 200px;
-}
+
 .blog-footer {
   display:flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .links ul {
@@ -88,4 +140,18 @@ header h6{
 
 .links li {
   margin-right: 15px;
+}
+
+.article-image-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+footer {
+  color: white;
+  background-color: #083451
+}
+.ironyard-logo{
+  margin-left: 25px;
+  margin-right: 10px;
 }
