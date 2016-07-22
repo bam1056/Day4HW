@@ -69,10 +69,11 @@ main{
 }
 main h2{
   font-weight: normal;
+  margin-top: 0;
 }
 aside {
-  margin-left: 50px;
-  border-left: 2px solid gray;
+  margin-left: 25px;
+  border-left: 2px solid lightgray;
 }
 aside h4 {
   margin-left: 10px;
@@ -80,20 +81,31 @@ aside h4 {
   font-size: 2em;
   color: #357CBA
 }
+.content {
+  margin-bottom: 40px;
+}
 .sidebar-auth-name {
   text-align: center;
+  color: #357CBA;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 .sidebar-headline{
   text-align: left;
+  color: #357CBA;
+  font-weight: normal;
 }
 .author-social-links ul{
   display:flex;
   list-style: none;
   justify-content: center;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .author-social-links li{
-margin-right: 10px;
+margin-right: 20px;
+
 }
 .author-info-container{
   display: flex;
@@ -116,6 +128,9 @@ margin-right: 10px;
   margin-left: 100px;
   margin-right: 100px;
   justify-content: space-between;
+}
+.large-avatar{
+  margin-top:20px;
 }
 .blog-post {
   margin-right: 50px;
@@ -161,12 +176,12 @@ margin-right: 5px;
 }
 .read-comments, .read-later{
 background-color: #4d4d4d;
-padding: 10px;
+padding: 5px;
 margin-right: 10px;
 }
 .share{
 background-color: #083451;
-padding: 10px;
+padding: 5px;
 margin-right: 10px;
 }
 .links .sharebg{
@@ -174,12 +189,22 @@ margin-right: 10px;
 }
 .article-image-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap:nowrap;
+  text-rendering:
 }
 
 footer {
   color: white;
   background-color: #083451
+
+}
+.most-popular-posts h2{
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.most-popular-posts {
+    border-top: 1px solid lightgray;
 }
 .ironyard-logo{
   margin-left: 25px;
