@@ -13,7 +13,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 header ul {
@@ -53,13 +54,13 @@ header form input[type=submit]{
 header h1{
   text-align: center;
   margin-bottom: 0;
-  font-size: 4em;
+  font-size: 6em;
   font-weight:100;
   color: white;
 }
 header h6{
   text-align: center;
-  margin-top: 0;
+  margin-top: -20px;
   padding-bottom: 75px;
 }
 main{
@@ -208,8 +209,14 @@ margin-right: 10px;
 }
 .article-image-container {
   display: flex;
-  flex-wrap:nowrap;
-  text-rendering:
+  flex-wrap: wrap;
+
+}
+.article-image-container p {
+  margin-top: 325px;
+  margin-left: 15px;
+  font-weight: normal;
+  font-size: 2em;
 }
 
 footer {
@@ -227,6 +234,43 @@ footer {
 }
 .most-popular-posts {
     border-top: 1px solid lightgray;
+}
+.article-image1{
+  background-image: url("../surfResources/article-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 400px;
+
+  color: ##083451;
+
+}
+.article-image2{
+  background-image: url("../surfResources/article-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 400px;
+  color: white;
+
+}
+.article-image3{
+  background-image: url("../surfResources/article-image-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 400px;
+  color: ##083451;
+
+}
+.article-image4{
+  background-image: url("../surfResources/article-image-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 400px;
+  color: ##083451;
+
 }
 .ironyard-logo{
   margin-left: 25px;
