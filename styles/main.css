@@ -96,7 +96,7 @@ margin-right: 10px;
   flex-direction: column;
   align-items: center;
 }
-.top-flex-container h2{
+.content h2{
   font-size: 3em;
 }
 .crestLogo{
@@ -106,7 +106,7 @@ margin-right: 10px;
 .nav-bar {
   margin-left: 20px;
 }
-.top-flex-container{
+.content{
   display: flex;
 }
 .blog-post {
@@ -124,6 +124,9 @@ margin-right: 5px;
 }
 .sidebar{
   margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog-footer {
@@ -144,12 +147,23 @@ margin-right: 5px;
   margin-right: 15px;
   background-color: lightgray;
   padding-right: 10px;
+  color: white;
+  font-size: .75em;
 }
-.link-icon-container{
+.read-comments, .read-later{
 background-color: #4d4d4d;
 padding-right: 5px;
 padding-left: 5px;
 margin-right: 10px;
+}
+.share{
+background-color: #083451;
+padding-right: 5px;
+padding-left: 5px;
+margin-right: 10px;
+}
+.links .sharebg{
+  background-color: #357CBA;
 }
 .article-image-container {
   display: flex;
