@@ -218,7 +218,16 @@ margin-right: 10px;
   font-weight: normal;
   font-size: 2em;
 }
-.article-image-container:hover p {
+.article-image1:hover p {
+  color: white;
+}
+.article-image2:hover p {
+  color: white;
+}
+.article-image3:hover p {
+  color: white;
+}
+.article-image4:hover p {
   color: white;
 }
 footer {
