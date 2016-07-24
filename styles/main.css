@@ -1,387 +1,369 @@
-body{
-  padding: 0;
-  margin: 0;
-
+body {
+    padding: 0;
+    margin: 0;
 }
-header{
-  background-image: url('../surfResources/header.jpg');
-  background-size: cover;
-  font-family: "Open Sans","Futura", sans-serif;
-  color: #083451;
+header {
+    background-image: url('../surfResources/header.jpg');
+    background-size: cover;
+    font-family: "Open Sans", "Futura", sans-serif;
+    color: #083451;
 }
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
 header ul {
-  display: flex;
-  flex-grow: 1;
-  list-style: none;
-  justify-content:flex-end;
-  margin-right: 15px;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 15px;
 }
-
 footer ul {
-  display: flex;
-  flex-grow: 1;
-  list-style: none;
-  justify-content:flex-end;
-  margin-right: 15px;
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 15px;
 }
-
 header li {
-  margin-left: 20px;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 25px;
-
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
 }
 .nav-bar a:hover {
-  color: white;
+    color: white;
 }
-
 .nav-link:hover {
-  color: white;
+    color: white;
 }
-header form input[type=submit]{
-  background-image: url('../surfResources/search-icon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: transparent;
-  border: none;
-  width: 2.25em;
-  background-color: transparent;
-
+header form input[type=submit] {
+    background-image: url('../surfResources/search-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    border: none;
+    width: 2.25em;
+    background-color: transparent;
 }
-
-header h1{
-  text-align: center;
-  margin-bottom: 0;
-  font-size: 6em;
-  font-weight:100;
-  color: white;
+header h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 6em;
+    font-weight: 100;
+    color: white;
 }
-header h6{
-  text-align: center;
-  margin-top: -20px;
-  padding-bottom: 75px;
+header h6 {
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 75px;
 }
-main{
-  font-family: "Oswald";
-  font-weight: lighter;
-  color: #083451;
+main {
+    font-family: "Oswald";
+    font-weight: lighter;
+    color: #083451;
 }
-main h2{
-  font-weight: normal;
-  margin-top: 0;
+main h2 {
+    font-weight: normal;
+    margin-top: 0;
 }
 aside {
-  margin-left: 25px;
-  border-left: 2px solid lightgray;
+    margin-left: 25px;
+    border-left: 2px solid lightgray;
 }
 aside h4 {
-  margin-left: 10px;
-  font-weight: lighter;
-  font-size: 2em;
-  color: #357CBA
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #357CBA
 }
-.nav-link{
-  text-decoration: none;
-  font-family: "Open Sans","Futura", sans-serif;
-  color: #083451;
+.nav-link {
+    text-decoration: none;
+    font-family: "Open Sans", "Futura", sans-serif;
+    color: #083451;
 }
 .content {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .sidebar-auth-name {
-  text-align: center;
-  color: #357CBA;
-  font-weight: normal;
-  margin-top: 10px;
-  margin-bottom: 0;
+    text-align: center;
+    color: #357CBA;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.sidebar-headline{
-  text-align: left;
-  color: #357CBA;
-  font-weight: normal;
-  margin-bottom: 0;
+.sidebar-headline {
+    text-align: left;
+    color: #357CBA;
+    font-weight: normal;
+    margin-bottom: 0;
 }
-.author-social-links ul{
-  display:flex;
-  list-style: none;
-  justify-content: center;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 50px;
+.author-social-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
-.author-social-links li{
-margin-right: 20px;
-color: #999999;
-font-size: 0.85em;
+.author-social-links li {
+    margin-right: 20px;
+    color: #999999;
+    font-size: 0.85em;
 }
-.author-social-links li a{
-  text-decoration: none;
-  color:#999999;
+.author-social-links li a {
+    text-decoration: none;
+    color: #999999;
 }
-.author-social-links li a:hover{
-  text-decoration: none;
-  color:#000;
+.author-social-links li a:hover {
+    text-decoration: none;
+    color: #000;
 }
-
-.author-info-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.author-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.content h2{
-  font-size: 3em;
-  margin-bottom: 0;
+.content h2 {
+    font-size: 3em;
+    margin-bottom: 0;
 }
-.crestLogo{
-  margin-left: 25px;
-  margin-right: 10px;
+.crestLogo {
+    margin-left: 25px;
+    margin-right: 10px;
 }
 .nav-bar {
-  margin-left: 20px;
+    margin-left: 20px;
 }
-.content{
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: space-between;
+.content {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
 }
-.large-avatar{
-  margin-top:20px;
+.large-avatar {
+    margin-top: 20px;
 }
-.on{
-  color: #999999;
-  font-size: 0.5em;
-  font-weight: lighter;
+.on {
+    color: #999999;
+    font-size: 0.5em;
+    font-weight: lighter;
 }
 .blog-post {
-  margin-right: 50px;
+    margin-right: 50px;
 }
-.avatar{
-  margin-right: 10px;
+.avatar {
+    margin-right: 10px;
 }
-.name{
-margin-right: 10px;
-color: #357CBA;
-font-weight: normal;
-font-size: 0.5em;
+.name {
+    margin-right: 10px;
+    color: #357CBA;
+    font-weight: normal;
+    font-size: 0.5em;
 }
-.date{
-  margin-left: 5px;
-  color: #999999;
-  font-size: 0.5em;
-  font-weight: normal;
-  text-decoration: underline;
+.date {
+    margin-left: 5px;
+    color: #999999;
+    font-size: 0.5em;
+    font-weight: normal;
+    text-decoration: underline;
 }
-.sidebar{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ad {
-  align-self: flex-start;
+    align-self: flex-start;
+    width: 100%;
+    height:auto;
 }
 .ad-caption {
-  align-self: flex-end;
-  margin-top: -3px;
-  margin-right: 5px;
+    align-self: flex-end;
+    margin-top: -3px;
+    margin-right: 5px;
 }
-.ad-caption a{
-  color: #999999;
+.ad-caption a {
+    color: #999999;
 }
-.ad-caption a:hover{
-  color: #000000;
+.ad-caption a:hover {
+    color: #000000;
 }
 .blog-footer {
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.sidebar-text p{
-  color: #999999;
-  margin-top: 0;
+.sidebar-text p {
+    color: #999999;
+    margin-top: 0;
 }
 .links ul {
-  display: flex;
-  list-style: none;
-  justify-content: flex-start;
-  padding-left: 0
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding-left: 0
 }
-
 .links li {
-  display:flex;
-  margin-right: 15px;
-  background-color: #999999;
-  padding-right: 10px;
-  color: white;
-  align-items: center;
-  font-size: .75em;
+    display: flex;
+    margin-right: 15px;
+    background-color: #999999;
+    padding-right: 10px;
+    color: white;
+    align-items: center;
+    font-size: .75em;
 }
-.links a{
-  text-decoration: none;
-  color: white;
+.links a {
+    text-decoration: none;
+    color: white;
 }
-
-.links a:hover{
-  color:black;
+.links a:hover {
+    color: black;
 }
-.read-comments, .read-later{
-background-color: #4d4d4d;
-padding: 5px;
-margin-right: 10px;
+.read-comments,
+.read-later {
+    background-color: #4d4d4d;
+    padding: 5px;
+    margin-right: 10px;
+    height: auto;
 }
-.share{
-background-color: #083451;
-padding: 5px;
-margin-right: 10px;
+.share {
+    background-color: #083451;
+    padding: 5px;
+    margin-right: 10px;
 }
-.links .sharebg{
-  background-color: #357CBA;
+.links .sharebg {
+    background-color: #357CBA;
 }
 .article-image-container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .article-image-container p {
-  margin-top: -100px;
-  margin-left: 15px;
-  font-weight: normal;
-  font-size: 2em;
+    margin-top: -100px;
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 2em;
 }
 .article-image1:hover p {
-  color: white;
+    color: white;
 }
 .article-image2:hover p {
-  color: white;
+    color: white;
 }
 .article-image3:hover p {
-  color: white;
+    color: white;
 }
 .article-image4:hover p {
-  color: white;
+    color: white;
 }
 footer {
-  color: #999999;
-  background-color: #083451;
-  font-weight: lighter;
-  font-size: .5em;
-
+    color: #999999;
+    background-color: #083451;
+    font-weight: lighter;
+    font-size: .5em;
 }
-.most-popular-posts h2{
-  font-size: 3em;
-  margin-bottom: 15px;
-  margin-top:15px;
-  text-align: center;
+.most-popular-posts h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
 .most-popular-posts {
     border-top: 1px solid lightgray;
 }
-.article-image1{
-  background: url("../surfResources/article-image-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 400px;
-  color: #083451;
-
+.article-image1 {
+    background: url("../surfResources/article-image-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 400px;
+    color: #083451;
 }
 .article-image1 .overlay {
-  top:0px;
-  width:100%;
-  height:400px;
-  background:#357CBA;
-  opacity:0.7;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    background: #357CBA;
+    opacity: 0.7;
 }
 .article-image1:hover .overlay {
-  opacity:0;
+    opacity: 0;
 }
-
-.article-image2{
-  background: url("../surfResources/article-image-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 400px;
-  color: ##083451;
-
+.article-image2 {
+    background: url("../surfResources/article-image-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 400px;
+    color: ##083451;
 }
 .article-image2 .overlay {
-  top:0px;
-  width:100%;
-  height:400px;
-  background:#357CBA;
-  opacity:0.7;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    background: #357CBA;
+    opacity: 0.7;
 }
 .article-image2:hover .overlay {
-  opacity:0;
+    opacity: 0;
 }
-
-.article-image3{
-  background: url("../surfResources/article-image-3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 400px;
-  color: ##083451;
-
+.article-image3 {
+    background: url("../surfResources/article-image-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 400px;
+    color: ##083451;
 }
 .article-image3 .overlay {
-  top:0px;
-  width:100%;
-  height:400px;
-  background:#357CBA;
-  opacity:0.7;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    background: #357CBA;
+    opacity: 0.7;
 }
 .article-image3:hover .overlay {
-  opacity:0;
+    opacity: 0;
 }
-
-.article-image4{
-  background: url("../surfResources/article-image-4.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 400px;
-  color: ##083451;
-
+.article-image4 {
+    background: url("../surfResources/article-image-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 400px;
+    color: ##083451;
 }
 .article-image4 .overlay {
-  top:0px;
-  width:100%;
-  height:400px;
-  background:#357CBA;
-  opacity:0.7;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    background: #357CBA;
+    opacity: 0.7;
 }
 .article-image4:hover .overlay {
-  opacity:0;
+    opacity: 0;
 }
-
-.ironyard-logo{
-  margin-left: 25px;
-  margin-right: 10px;
+.ironyard-logo {
+    margin-left: 25px;
+    margin-right: 10px;
 }
-
-.footer-nav-bar-link a{
-  margin-left: 20px;
-  text-decoration: none;
-  color: #999999;
+.footer-nav-bar-link a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #999999;
 }
-.footer-nav-bar-link a:hover{
-  color: #357CBA;
+.footer-nav-bar-link a:hover {
+    color: #357CBA;
 }
 footer li {
-  padding-right: 25px;
-  border-right: 1px solid #999999;
+    padding-right: 25px;
+    border-right: 1px solid #999999;
 }
-
-footer li:nth-child(3n+4){
-  border: none;
+footer li:nth-child(3n+4) {
+    border: none;
 }
